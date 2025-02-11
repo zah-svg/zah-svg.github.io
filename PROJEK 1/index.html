@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biografi Saya</title>
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      hr {
+        margin: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header: Judul dan Navigasi -->
+    <header>
+      <h1>Nama Saya</h1>
+      <h2>Profesi atau Pekerjaan</h2>
+      <nav>
+        <ul>
+          <li><a href="#tentang">Tentang</a></li>
+          <li><a href="#pengalaman">Pengalaman</a></li>
+          <li><a href="#kontak">Kontak</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Konten Utama -->
+    <main>
+      <!-- Bagian Tentang (Biografi) -->
+      <article id="tentang">
+        <h3>Tentang Saya</h3>
+        <p>
+          Halo, saya adalah seorang [profesi]. Saya memiliki minat dalam pengembangan web, pemrograman, dan desain.
+        </p>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo et quod odio velit, hic yang...
+          </p>
+        </div>
+      </article>
+
+      <!-- Bagian Pengalaman -->
+      <article id="pengalaman">
+        <h3>Pengalaman</h3>
+        <ul>
+          <li>Perusahaan A: Posisi X (2018-2020)</li>
+          <li>Perusahaan B: Posisi Y (2020-Sekarang)</li>
+        </ul>
+      </article>
+
+      <!-- Bagian Keterampilan: Tabel Keterampilan -->
+      <article id="keterampilan">
+        <h3>Keterampilan</h3>
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Keterampilan</th>
+              <th>Proficiency</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>HTML/CSS</td>
+              <td>Advanced</td>
+            </tr>
+            <tr>
+              <td>Python</td>
+              <td>Advanced</td>
+            </tr>
+          </tbody>
+        </table>
+      </article>
+    </main>
+
+    <!-- Aside: Informasi Tambahan -->
+    <aside>
+      <h4>Fakta Menarik</h4>
+      <p>Saya suka coding, mendaki, dan fotografi.</p>
+    </aside>
+
+    <!-- Footer: Kontak -->
+    <footer id="kontak">
+      <h3>Hubungi Saya</h3>
+      <form action="#" method="post">
+        <label for="name">Masukkan nama kamu:</label>
+        <input type="text" id="name" name="name" /><br /><br />
+
+        <label for="options">Pilih opsi:</label>
+        <select id="options" name="option">
+          <option value="option1">Option 1</option>
+          <option value="option2">Option 2</option>
+        </select><br /><br />
+
+        <label for="color">Pilih warna:</label>
+        <input type="color" id="color" name="color" /><br /><br />
+
+        <label for="start">Tanggal Mulai:</label>
+        <input type="date" id="start" name="start" value="2018-07-22" /><br /><br />
+
+        <fieldset>
+          <legend>Pilih salah satu:</legend>
+          <input type="radio" id="r1" name="radio" value="Radio 1" />
+          <label for="r1">Radio 1</label>
+          <input type="radio" id="r2" name="radio" value="Radio 2" />
+          <label for="r2">Radio 2</label>
+          <input type="radio" id="r3" name="radio" value="Radio 3" />
+          <label for="r3">Radio 3</label>
+        </fieldset>
+        <br />
+
+        <button type="submit">Submit</button>
+      </form>
+    </footer>
+  </body>
+</html>
