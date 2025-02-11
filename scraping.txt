@@ -1,0 +1,12 @@
+Heading Utama: My Website
+H1: My Website
+H3: Tentang Saya
+H3: Pengalaman
+H3: Skills
+H3: Hubungi Saya
+H4: Fun Fact
+Link Navigasi: #home - Home
+Link Navigasi: #pengalaman - Pengalaman
+Link Navigasi: #skills - Skills
+Link Navigasi: #fun fact - Fun Fact
+Link Navigasi: #kontak - Kontak
